@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="108.594" tests="6" skipped="0" failures="1" errors="0">
+<testcase classname="Working with Paints and Colours on Asian Paints" name="User add colour shades in cart" time="23.99">
+<system-out><![CDATA[
+Given user is on the homepage of Asian Paints website and hover over the Paints and Colors menu.passed
+When click on the Colour Catalogue option...................................passed
+And scroll down the page to locate Grey button..............................passed
+And click on the Grey button................................................passed
+And scroll down the page to view Grey colours...............................passed
+And click on the White Gold shade...........................................passed
+And click on the Know More button...........................................passed
+And enter the pincode.......................................................passed
+And click on the ADD TO CART button.........................................passed
+Then the message will be displayed..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Working with Paints and Colours on Asian Paints" name="User filters textures by selecting living room option" time="15.09">
+<system-out><![CDATA[
+Given user is on the homepage of Asian Paints website and hover over the Paints and Colors menu.passed
+When click on Interior Texture from the dropdown............................passed
+And scroll down to the View Textures button.................................passed
+And click on View Textures button...........................................passed
+And click on Living Room from the room type options.........................passed
+Then user should see images of interior textures filtered for the living room.passed
+]]></system-out>
+</testcase>
+<testcase classname="Working with Paints and Colours on Asian Paints" name="Locating a store for interior texture paint in the kitchen section" time="20.093">
+<system-out><![CDATA[
+Given user is on the homepage of Asian Paints website and hover over the Paints and Colors menu.passed
+When click on Interior Texture from the dropdown............................passed
+And scroll down to the View Textures button.................................passed
+And click on View Textures button...........................................passed
+And scroll down to the Kitchen button.......................................passed
+And click on the Kitchen button.............................................passed
+And scroll down to the Locator button.......................................passed
+And Enter the city "<name>" in the search field.............................passed
+And click on Locator button.................................................passed
+Then it should locate the stores in the specified city......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Working with Paints and Colours on Asian Paints" name="Navigating to expert recommendation page using Paint Budget Calculator - Example #1.1" time="25.708">
+<system-out><![CDATA[
+Given user is on the homepage of Asian Paints website and hover over the Paints and Colors menu.passed
+When click on Paints Budget Calculator......................................passed
+And click on Fresh Painting radio button....................................passed
+And click on interior radio button..........................................passed
+And enter 101 as the carpet area............................................passed
+And click on Calculate Now button...........................................passed
+And Enter the details Akshada,akshada@gmail.com,9345267812,123456...........passed
+And click on get an estimate button.........................................passed
+Then user should be redirected to the Our Expert Recommendation page........passed
+]]></system-out>
+</testcase>
+<testcase classname="Working with Paints and Colours on Asian Paints" name="Navigating to expert recommendation page using Paint Budget Calculator - Example #1.1" time="14.559">
+<system-out><![CDATA[
+Given user is on the homepage of Asian Paints website and hover over the Paints and Colors menu.passed
+When click on Paints Budget Calculator......................................passed
+And click on Fresh Painting radio button....................................passed
+And click on interior radio button..........................................passed
+And enter 101 as the carpet area............................................passed
+And click on Calculate Now button...........................................passed
+And Enter the details Akshada,akshada@gmail.com,934526781,123456............passed
+And click on get an estimate button.........................................passed
+Then the error message will be displayed....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Working with Paints and Colours on Asian Paints" name="Verify it will show shades of purple and pinks colour" time="8.916">
+<failure type="java.lang.AssertionError" message="expected [kadambari-n] but found [Createx Scratch Finish Ocean Pattern]">
+<![CDATA[java.lang.AssertionError: expected [kadambari-n] but found [Createx Scratch Finish Ocean Pattern]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at StepDefination.StepDefinationPnc.the_button_should_be_clickable_and_show_shades_of_purple_and_pinks_colour(StepDefinationPnc.java:234)
+	at ✽.user should able to see the shades of purple and pinks colour(file:///C:/Users/ASHANKAR/OneDrive/HiddenWord/.metadata/PaintsAndColours/src/test/resource/Features/PaintsAndColours.feature:81)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user is on the homepage of Asian Paints website and hover over the Paints and Colors menu.passed
+When user click on the Exterior Texture.....................................passed
+And user attempt to click on the purples and pinks option...................passed
+Then user should able to see the shades of purple and pinks colour..........failed
+]]></system-out>
+</testcase>
+</testsuite>

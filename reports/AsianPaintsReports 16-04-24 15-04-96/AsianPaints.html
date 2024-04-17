@@ -1,0 +1,1514 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Apr 16, 2024 03:58:14 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@Valid</a><a class="dropdown-item" href="#">@AddToCart</a><a class="dropdown-item" href="#">@VerifyColour</a><a class="dropdown-item" href="#">@Filter</a><a class="dropdown-item" href="#">@Invalid</a><a class="dropdown-item" href="#">@LocateAStore</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Working with Paints and Colours on Asian Paints</p>
+            <p class="text-sm">
+              <span>3:58:15 pm</span> / <span>00:01:48:303</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Working with Paints and Colours on Asian Paints</h5>
+<span class='badge badge-success'>04.16.2024 3:58:15 pm</span>
+<span class='badge badge-danger'>04.16.2024 4:00:03 pm</span>
+<span class='badge badge-default'>00:01:48:303</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>User add colour shades in cart</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefination.StepDefinationPnc.user_is_on_the_homepage_of_asian_paints_website_and_hover_over_the_paints_and_colors_menu()">
+                <span>Given user is on the homepage of Asian Paints website and hover over the Paints and Colors menu</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>User add colour shades in cart
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded1.png' src="./Screenshots/embedded1.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.StepDefinationPnc.click_on_the_colour_catalogue_option()">
+                <span>When click on the Colour Catalogue option</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>User add colour shades in cart
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded2.png' src="./Screenshots/embedded2.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.StepDefinationPnc.scroll_down_the_page_to_locate_grey_button()">
+                <span>And scroll down the page to locate Grey button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>User add colour shades in cart
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded3.png' src="./Screenshots/embedded3.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.StepDefinationPnc.click_on_the_grey_button()">
+                <span>And click on the Grey button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>User add colour shades in cart
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded4.png' src="./Screenshots/embedded4.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.StepDefinationPnc.scroll_down_the_page_to_view_grey_colours()">
+                <span>And scroll down the page to view Grey colours</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>User add colour shades in cart
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded5.png' src="./Screenshots/embedded5.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.StepDefinationPnc.user_should_see_shades_of_grey_colours()">
+                <span>And click on the White Gold shade</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>User add colour shades in cart
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded6.png' src="./Screenshots/embedded6.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.StepDefinationPnc.click_on_the_know_more_button()">
+                <span>And click on the Know More button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>User add colour shades in cart
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded7.png' src="./Screenshots/embedded7.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.StepDefinationPnc.enter_the_pincode()">
+                <span>And enter the pincode</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>User add colour shades in cart
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded8.png' src="./Screenshots/embedded8.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.StepDefinationPnc.click_on_the_add_to_cart_button()">
+                <span>And click on the ADD TO CART button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>User add colour shades in cart
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded9.png' src="./Screenshots/embedded9.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.StepDefinationPnc.the_message_will_be_displayed()">
+                <span>Then the message will be displayed</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>User add colour shades in cart
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded10.png' src="./Screenshots/embedded10.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="23"><span class="badge log pass-bg mr-2">Pass</span>User filters textures by selecting living room option</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefination.StepDefinationPnc.user_is_on_the_homepage_of_asian_paints_website_and_hover_over_the_paints_and_colors_menu()">
+                <span>Given user is on the homepage of Asian Paints website and hover over the Paints and Colors menu</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>User filters textures by selecting living room option
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded11.png' src="./Screenshots/embedded11.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.StepDefinationPnc.click_on_interior_texture_from_the_dropdown()">
+                <span>When click on Interior Texture from the dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>User filters textures by selecting living room option
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded12.png' src="./Screenshots/embedded12.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.StepDefinationPnc.scroll_down_to_the_view_textures_section()">
+                <span>And scroll down to the View Textures button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>User filters textures by selecting living room option
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded13.png' src="./Screenshots/embedded13.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.StepDefinationPnc.click_on_view_textures()">
+                <span>And click on View Textures button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>User filters textures by selecting living room option
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded14.png' src="./Screenshots/embedded14.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.StepDefinationPnc.choose_living_room_from_the_room_type_options()">
+                <span>And click on Living Room from the room type options</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>User filters textures by selecting living room option
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded15.png' src="./Screenshots/embedded15.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.StepDefinationPnc.user_should_see_images_of_interior_textures_filtered_for_the_living_room()">
+                <span>Then user should see images of interior textures filtered for the living room</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>User filters textures by selecting living room option
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded16.png' src="./Screenshots/embedded16.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="36"><span class="badge log pass-bg mr-2">Pass</span>Locating a store for interior texture paint in the kitchen section</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefination.StepDefinationPnc.user_is_on_the_homepage_of_asian_paints_website_and_hover_over_the_paints_and_colors_menu()">
+                <span>Given user is on the homepage of Asian Paints website and hover over the Paints and Colors menu</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>Locating a store for interior texture paint in the kitchen section
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded17.png' src="./Screenshots/embedded17.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.StepDefinationPnc.click_on_interior_texture_from_the_dropdown()">
+                <span>When click on Interior Texture from the dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>Locating a store for interior texture paint in the kitchen section
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded18.png' src="./Screenshots/embedded18.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.StepDefinationPnc.scroll_down_to_the_view_textures_section()">
+                <span>And scroll down to the View Textures button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>Locating a store for interior texture paint in the kitchen section
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded19.png' src="./Screenshots/embedded19.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.StepDefinationPnc.click_on_view_textures()">
+                <span>And click on View Textures button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>Locating a store for interior texture paint in the kitchen section
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded20.png' src="./Screenshots/embedded20.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.StepDefinationPnc.scroll_down_to_the_kitchen_button()">
+                <span>And scroll down to the Kitchen button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>Locating a store for interior texture paint in the kitchen section
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded21.png' src="./Screenshots/embedded21.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.StepDefinationPnc.click_on_the_kitchen_button()">
+                <span>And click on the Kitchen button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>Locating a store for interior texture paint in the kitchen section
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded22.png' src="./Screenshots/embedded22.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.StepDefinationPnc.click_on_the_store_locator_option()">
+                <span>And scroll down to the Locator button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>Locating a store for interior texture paint in the kitchen section
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded23.png' src="./Screenshots/embedded23.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.StepDefinationPnc.enter_the_city_in_the_search_field(java.lang.String,io.cucumber.datatable.DataTable)">
+                <span>And Enter the city "<name>" in the search field</span>
+      <div><table class='markup-table table '><tr><td>Mumbai</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>Locating a store for interior texture paint in the kitchen section
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded24.png' src="./Screenshots/embedded24.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.StepDefinationPnc.click_on_locator_button()">
+                <span>And click on Locator button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>Locating a store for interior texture paint in the kitchen section
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded25.png' src="./Screenshots/embedded25.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.StepDefinationPnc.it_should_locate_the_stores_in_the_specified_city()">
+                <span>Then it should locate the stores in the specified city</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>Locating a store for interior texture paint in the kitchen section
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded26.png' src="./Screenshots/embedded26.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="57"><span class="badge log pass-bg mr-2">Pass</span>Navigating to expert recommendation page using Paint Budget Calculator</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="58"><span class="badge log pass-bg mr-2">Pass</span>Navigating to expert recommendation page using Paint Budget Calculator</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on the homepage of Asian Paints website and hover over the Paints and Colors menu</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>Navigating to expert recommendation page using Paint Budget Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded27.png' src="./Screenshots/embedded27.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When click on Paints Budget Calculator</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>Navigating to expert recommendation page using Paint Budget Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded28.png' src="./Screenshots/embedded28.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Fresh Painting radio button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>Navigating to expert recommendation page using Paint Budget Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded29.png' src="./Screenshots/embedded29.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on interior radio button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>Navigating to expert recommendation page using Paint Budget Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded30.png' src="./Screenshots/embedded30.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And enter 101 as the carpet area</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>Navigating to expert recommendation page using Paint Budget Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded31.png' src="./Screenshots/embedded31.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Calculate Now button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>Navigating to expert recommendation page using Paint Budget Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded32.png' src="./Screenshots/embedded32.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter the details Akshada,akshada@gmail.com,9345267812,123456</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>Navigating to expert recommendation page using Paint Budget Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded33.png' src="./Screenshots/embedded33.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on get an estimate button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>Navigating to expert recommendation page using Paint Budget Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded34.png' src="./Screenshots/embedded34.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user should be redirected to the Our Expert Recommendation page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>Navigating to expert recommendation page using Paint Budget Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded35.png' src="./Screenshots/embedded35.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="77"><span class="badge log pass-bg mr-2">Pass</span>Navigating to expert recommendation page using Paint Budget Calculator</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="78"><span class="badge log pass-bg mr-2">Pass</span>Navigating to expert recommendation page using Paint Budget Calculator</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on the homepage of Asian Paints website and hover over the Paints and Colors menu</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>Navigating to expert recommendation page using Paint Budget Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded36.png' src="./Screenshots/embedded36.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When click on Paints Budget Calculator</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>Navigating to expert recommendation page using Paint Budget Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded37.png' src="./Screenshots/embedded37.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Fresh Painting radio button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>Navigating to expert recommendation page using Paint Budget Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded38.png' src="./Screenshots/embedded38.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on interior radio button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>Navigating to expert recommendation page using Paint Budget Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded39.png' src="./Screenshots/embedded39.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And enter 101 as the carpet area</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>Navigating to expert recommendation page using Paint Budget Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded40.png' src="./Screenshots/embedded40.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Calculate Now button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>Navigating to expert recommendation page using Paint Budget Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded41.png' src="./Screenshots/embedded41.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter the details Akshada,akshada@gmail.com,934526781,123456</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>Navigating to expert recommendation page using Paint Budget Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded42.png' src="./Screenshots/embedded42.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on get an estimate button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>Navigating to expert recommendation page using Paint Budget Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded43.png' src="./Screenshots/embedded43.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the error message will be displayed</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>Navigating to expert recommendation page using Paint Budget Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded44.png' src="./Screenshots/embedded44.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="97"><span class="badge log fail-bg mr-2">Fail</span>Verify it will show shades of purple and pinks colour</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefination.StepDefinationPnc.user_is_on_the_homepage_of_asian_paints_website_and_hover_over_the_paints_and_colors_menu()">
+                <span>Given user is on the homepage of Asian Paints website and hover over the Paints and Colors menu</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>Verify it will show shades of purple and pinks colour
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded45.png' src="./Screenshots/embedded45.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.StepDefinationPnc.user_click_on_the_exterior_texture()">
+                <span>When user click on the Exterior Texture</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>Verify it will show shades of purple and pinks colour
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded46.png' src="./Screenshots/embedded46.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.StepDefinationPnc.user_attempt_to_click_on_the_purples_and_pinks_option()">
+                <span>And user attempt to click on the purples and pinks option</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>Verify it will show shades of purple and pinks colour
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded47.png' src="./Screenshots/embedded47.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="StepDefination.StepDefinationPnc.the_button_should_be_clickable_and_show_shades_of_purple_and_pinks_colour()">
+                <span>Then user should able to see the shades of purple and pinks colour</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: expected [kadambari-n] but found [Createx Scratch Finish Ocean Pattern]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at StepDefination.StepDefinationPnc.the_button_should_be_clickable_and_show_shades_of_purple_and_pinks_colour(StepDefinationPnc.java:234)
+	at ✽.user should able to see the shades of purple and pinks colour(file:///C:/Users/ASHANKAR/OneDrive/HiddenWord/.metadata/PaintsAndColours/src/test/resource/Features/PaintsAndColours.feature:81)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>StepDefination.StepDefinationPnc.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>Verify it will show shades of purple and pinks colour
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded48.png' src="./Screenshots/embedded48.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">java.lang.AssertionError</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.AssertionError</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:00:03 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='104'>Then user should able to see the shades of purple and pinks colour</a>
+<div class="">
+<span class="badge badge-default">Working with Paints and Colours on Asian Paints.Verify it will show shades of purple and pinks colour.Then user should able to see the shades of purple and pinks colour</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">6</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@Valid</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Valid</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:59:14 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='58'>Navigating to expert recommendation page using Paint Budget Calculator</a>
+<div class="">
+<span class="badge badge-default">Working with Paints and Colours on Asian Paints.Navigating to expert recommendation page using Paint Budget Calculator</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@AddToCart</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@AddToCart</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:58:15 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>User add colour shades in cart</a>
+<div class="">
+<span class="badge badge-default">Working with Paints and Colours on Asian Paints.User add colour shades in cart</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@VerifyColour</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@VerifyColour</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:59:55 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='97'>Verify it will show shades of purple and pinks colour</a>
+<div class="">
+<span class="badge badge-default">Working with Paints and Colours on Asian Paints.Verify it will show shades of purple and pinks colour</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@Filter</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Filter</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:58:39 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='23'>User filters textures by selecting living room option</a>
+<div class="">
+<span class="badge badge-default">Working with Paints and Colours on Asian Paints.User filters textures by selecting living room option</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@Invalid</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Invalid</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:59:40 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='78'>Navigating to expert recommendation page using Paint Budget Calculator</a>
+<div class="">
+<span class="badge badge-default">Working with Paints and Colours on Asian Paints.Navigating to expert recommendation page using Paint Budget Calculator</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@LocateAStore</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@LocateAStore</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:58:54 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='36'>Locating a store for interior texture paint in the kitchen section</a>
+<div class="">
+<span class="badge badge-default">Working with Paints and Colours on Asian Paints.Locating a store for interior texture paint in the kitchen section</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Apr 16, 2024 03:58:14 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Apr 16, 2024 04:00:04 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>1</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='83%'><b>5</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='16%'><b>1</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='98%'><b>95</b> steps passed</small></div>
+<div>
+<small data-tooltip='1%'><b>1</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Working with Paints and Colours on Asian Paints":108.303
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@Valid</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@AddToCart</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@VerifyColour</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@Filter</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Invalid</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@LocateAStore</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>AppName</td>
+<td>Eclipse</td>
+</tr>
+<tr>
+<td>user</td>
+<td>ASHANKAR</td>
+</tr>
+<tr>
+<td>build</td>
+<td>windows</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 5,
+failChild: 1,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 95,
+failGrandChild: 1,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
